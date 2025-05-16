@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d44a4a;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: relative;
+  }
+  
+  .logo {
+      position: absolute;
+      left: 2rem;
+    }
+    
+    .logo-img {
+      height: 60px;
+      width: auto;
+    }
+  
+  .nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* About Us section styling */
+  .about-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+    text-align: center;
+  }
+  
+  .about-intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .about-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-heading {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .about-desc {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    justify-content: center;
+    text-align: justify;
+  }
+  
+  /* Story Section */
+.story-section {
+    margin-top: 4rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .story-title {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  
+  .story-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #d44a4a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  

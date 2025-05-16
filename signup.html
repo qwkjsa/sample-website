@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Declares this file is an HTML5 document -->
+
+<html lang="en">
+<!-- Root HTML element with language set to English -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Sets character encoding to UTF-8 to support all characters -->
+
+    <title>Sample Sign Up</title>
+    <!-- The title of the page shown in the browser tab -->
+
+    <link rel="stylesheet" href="midterm.css">
+    <!-- Links to the external CSS file for styling -->
+</head>
+
+<body>
+    <!-- The body contains all the visible content of the page -->
+
+    <div class="signup-container">
+        <!-- Main container that wraps the entire sign-up section -->
+
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/ Spotify_Logo_CMYK_Black.png" 
+             class="logo" alt="Sample Logo">
+        <!-- Spotify logo at the top of the form -->
+
+        <button class="facebook-btn">SIGN UP WITH FACEBOOK</button>
+        <!-- Button that simulates signing up with Facebook -->
+
+        <div class="divider"><span>or</span></div>
+        <!-- Divider between Facebook and email sign-up -->
+
+        <form>
+            <!-- Start of the sign-up form -->
+
+            <input type="email" placeholder="Email" required>
+            <!-- Input for user email -->
+
+            <input type="email" placeholder="Confirm email" required>
+            <!-- Input to confirm the email address -->
+
+            <input type="password" placeholder="Password" required>
+            <!-- Input for user password -->
+
+            <input type="text" placeholder="What should we call you?" required>
+            <!-- Input for user's display name or username -->
+
+            <label>Date of birth:</label>
+            <!-- Label for the date of birth fields -->
+
+            <div class="dob">
+                <!-- Container for date of birth fields (month, day, year) -->
+
+                <input type="text" placeholder="Month">
+                <!-- Input for month of birth -->
+
+                <input type="text" placeholder="Day">
+                <!-- Input for day of birth -->
+
+                <input type="text" placeholder="Year">
+                <!-- Input for year of birth -->
+            </div>
+
+            <div class="gender">
+                <!-- Gender selection using radio buttons -->
+
+                <label><input type="radio" name="gender"> Male</label>
+                <!-- Option for male -->
+
+                <label><input type="radio" name="gender"> Female</label>
+                <!-- Option for female -->
+
+                <label><input type="radio" name="gender"> Non-binary</label>
+                <!-- Option for non-binary -->
+            </div>
+
+            <label><input type="checkbox"> Share my registration data...</label>
+            <!-- Checkbox to agree to share registration  data -->
+
+            <div>
+                <!-- Button container -->
+
+                <button class="btn">Sign Up</button>
+                <!-- Button to submit the form (Note: no action defined yet) -->
+            </div>
+
+            <p class="terms">
+                <!-- Terms and conditions note -->
+                By clicking "Sign up," you typically agree to the website or service's Terms of Service, Privacy Policy, and any other applicable policies. 
+            </p>
+
+        </form>
+        <!-- End of the form -->
+    </div>
+
+</body>
+</html>

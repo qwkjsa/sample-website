@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the font style for the entire page */
+    background-color: #fff; /* Sets the background to white */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    height: 100vh; /* Makes the body fill the entire viewport height */
+}
+
+.signup-container {
+    width: 360px; /* Sets fixed width for the container */
+    padding: 30px; /* Adds space inside the container */
+    border: 1px solid #ddd; /* Light gray border around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    text-align: center; /* Centers all text and elements inside */
+}
+
+.logo {
+    width: 140px; /* Sets width for the logo */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+.facebook-btn {
+    width: 100%; /* Button takes full width of container */
+    background-color: #4267B2; /* Facebook blue */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px; /* Inner spacing */
+    border-radius: 25px; /* Fully rounded corners */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.divider {
+    margin: 20px 0; /* Vertical spacing above and below */
+    position: relative; /* Needed for the pseudo-elements (::before/after) */
+    font-size: 20px; /* Smaller text size */
+    color: #0b0a0a; /* Medium gray text */
+}
+
+/* Adds lines before and after the "or" text inside divider */
+.divider span::before,
+.divider span::after {
+    content: ""; /* Adds an empty content block */
+    display: inline-block; /* Makes the lines inline with text */
+    width: 40%; /* Length of the line (can be adjusted) */
+    height: 2px; /* Thin line */
+    background-color: #1b1b1b; /* Light gray color for the line */
+    vertical-align: middle; /* Aligns lines with the text */
+    margin: 0 10px; /* Space between the line and the word "or" */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%; /* Inputs take full width */
+    padding: 10px; /* Inner space in inputs */
+    margin: 8px 0; /* Vertical spacing between fields */
+    border-radius: 5px; /* Slightly rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+.dob {
+    display: flex; /* Makes inputs for date of birth appear in a row */
+    gap: 5px; /* Space between the fields */
+    margin-bottom: 10px; /* Space below the row */
+}
+
+.dob input {
+flex: 1; /* Each input takes equal space *
+    padding: 10px; /* Inner spacing */
+}
+
+.gender {
+    display: flex; /* Puts gender options in one line */
+    justify-content: space-between; /* Even spacing between items */
+    margin: 10px 0; /* Vertical spacing */
+    font-size: 14px; /* Smaller font size */
+}
+
+.btn {
+    width: 80%; /* Slightly narrower button */
+    padding: 8px; /* Padding inside the button */
+    margin: 8px 0; /* Margin around the button */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 20px; /* Round corners */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for better readability */
+}
+
+.terms {
+    font-size: 12px; /* Small text for legal terms */
+    color: #666; /* Medium gray color */
+    margin: 15px 0; /* Space around the paragraph */
+}
+
+.terms a {
+    color: green; /* Link color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.signup-btn {
+    width: 100%; /* Full-width button */
+    background-color: #1DB954; /* Spotify green */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px; /* Inner spacing */
+    border-radius: 25px; /* Fully rounded corners */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
